@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+
+}
+#navbar{
+border: 2px solid black;
+padding: 15px;
+margin: 5px;
+text-align: center;
+background-color: #f2e0b8;
+}
+#links{
+display: inline;
+}
+#navbar #links a{
+text-decoration: none;
+padding: 5px;
+margin: 5px;
+border: 2px solid white;
+border-radius: 5px;
+opacity: .70;
+transition: 0.2s;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#navbar #links a:hover{opacity:1; transition: 0.4s}
+#tt{background-color: #582F0E; color: #fffcf9;}
+#fb{background-color: #7F5539; color: white;}
+#dc{background-color: #A18276; color: #ffffff;}
+#ig{background-color: #806443; color:#ffffff}
+#twt{background-color: #816e44; color: white;}
+.rounded{border-radius: 5px;}
+/**the css for banner**/
+.banner{
+    padding: 50px;
+    background-image: url(coffee.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.banner p{
+    color: #f5f1c0;
+    margin-bottom: 20px;
+}
+.banner h2{
+    color: #D4AA7D;
+    text-shadow: 5C3E1F;
+    font-family: 'Young Serif', serif;
+}
+.banner a{
+    padding: 10px;
+    text-decoration: none;
+    background-color: #A68A64; 
+    font-family: 'Young Serif', serif;
+
+}
